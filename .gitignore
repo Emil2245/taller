@@ -5,6 +5,11 @@ build/
 !**/src/test/**/build/
 .kotlin
 
+.env
+env/
+*.env
+*.env.*
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
