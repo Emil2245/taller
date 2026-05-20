@@ -1,4 +1,4 @@
-package com.programacion.taller.embeddings;
+package com.programacion.embeddings;
 
 import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.model.embedding.onnx.allminilml6v2.AllMiniLmL6V2EmbeddingModel;

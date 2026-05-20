@@ -1,6 +1,5 @@
-package com.programacion.taller.embeddings;
+package com.programacion.embeddings;
 
-import com.programacion.taller.ChatMain;
 import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.model.embedding.onnx.OnnxEmbeddingModel;
 import dev.langchain4j.model.embedding.onnx.PoolingMode;
