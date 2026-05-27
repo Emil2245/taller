@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+app:
+  key: zxy
+  aimodel: llama3.2
+
+spring:
+  ai:
+    openai:
+      api-key: ${APP_KEY}
+      base-url: http://localhost:8080
+      chat:
+        model: ${app.aimodel}
