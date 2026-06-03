@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b2b7b7b-0721-495f-abec-5a71ad732cea" name="Changes" comment="feat: Busqueda semantica">
+      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/java/com/programacion/taller/SpringAiPromptMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/java/com/programacion/taller/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/java/com/programacion/taller/rest/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/java/com/programacion/taller/rest/ChatRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/resources/prompts/systemPrompt.st" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/resources/prompts/userPrompt.st" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/resources/static.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/tallerIII/taller" value="3COjnU6WfzEyOqsohIhxHcX2lUl" />
+    </persistenceIdMap>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="taller" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Emil2245&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Emil2245/taller.git&quot;,
+    &quot;accountId&quot;: &quot;3f1749cd-1188-4198-a5ef-ac7911961f6d&quot;
+  }
+}</component>
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$" gradleHome="C:\Users\fing.labcom\.gradle\wrapper\dists\gradle-9.2.0-bin\11i5gvueggl8a5cioxuftxrik\gradle-9.2.0" javaHome="C:\Program Files\Java\jdk-25.0.2" gradleVersion="9.2.0" />
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3COjnU6WfzEyOqsohIhxHcX2lUl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.Build taller.executor": "Run",
+    "Gradle.taller [:01.embedding:com.programacion.taller.DataSampling.main()].executor": "Run",
+    "Gradle.taller [:01.embedding:com.programacion.taller.EmbeddingTest.main()].executor": "Run",
+    "Gradle.taller [:01.embedding:com.programacion.taller.TestTokenizerMain.main()].executor": "Run",
+    "Gradle.taller [:01.embedding:com.programacion.taller.TokkitTokenizer.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.embeddings.BusquedaSemanticaMain.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.embeddings.InMemoryEmbeddingStoreMain.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.taller.ChatAiServiceMain.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.taller.ChatMain.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.taller.ChatMemoryMain.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.taller.ChatStreamMain.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.taller.ChatStructuredOutputMain.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.taller.FunctionCallingMain.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.taller.embeddings.EmbeddingModel.main()].executor": "Run",
+    "Gradle.taller [:langchain4j:com.programacion.taller.embeddings.SimilitudMain.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.SpringAiMain.executor": "Run",
+    "Spring Boot.SpringAiPromptMain.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/tallerIII/taller/10.spring-prompt/src/main/resources",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\tallerIII\taller\10.spring-prompt\src\main\resources" />
+      <recent name="C:\tallerIII\taller\10.spring-prompt\src\main\resources\prompts" />
+      <recent name="C:\tallerIII\taller\10.spring-prompt\src\main\java\com\programacion\taller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\tallerIII\taller" />
+      <recent name="C:\tallerIII\taller\langchain4j\src" />
+      <recent name="C:\tallerIII\taller\01.embedding\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.programacion.taller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringAiPromptMain">
+    <configuration name="BusquedaSemanticaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programacion.embeddings.BusquedaSemanticaMain" />
+      <module name="taller.langchain4j.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programacion.embeddings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InMemoryEmbeddingStoreMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programacion.embeddings.InMemoryEmbeddingStoreMain" />
+      <module name="taller.langchain4j.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programacion.embeddings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimilitudMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programacion.embeddings.SimilitudMain" />
+      <module name="taller.langchain4j.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programacion.embeddings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="taller" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="taller" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringAiMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="taller.03.spring-ai.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.programacion.taller.SpringAiMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programacion.taller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAiPromptMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="taller.10.spring-prompt.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.programacion.taller.SpringAiPromptMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programacion.taller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BusquedaSemanticaMain" />
+      <item itemvalue="Application.InMemoryEmbeddingStoreMain" />
+      <item itemvalue="Application.SimilitudMain" />
+      <item itemvalue="Spring Boot.SpringAiPromptMain" />
+      <item itemvalue="Spring Boot.SpringAiMain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringAiPromptMain" />
+        <item itemvalue="Spring Boot.SpringAiMain" />
+        <item itemvalue="Application.InMemoryEmbeddingStoreMain" />
+        <item itemvalue="Application.BusquedaSemanticaMain" />
+        <item itemvalue="Application.SimilitudMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b2b7b7b-0721-495f-abec-5a71ad732cea" name="Changes" comment="" />
+      <created>1776263679201</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776263679201</updated>
+      <workItem from="1777036744630" duration="769000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: embeddings">
+      <option name="closed" value="true" />
+      <created>1776872941769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776872941769</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: chatModel">
+      <option name="closed" value="true" />
+      <created>1778082886901</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1778082886901</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: chatModel con Memoria de mensajes y System Role">
+      <option name="closed" value="true" />
+      <created>1778686107008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1778686107008</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: chatModel con respuesta JSON">
+      <option name="closed" value="true" />
+      <created>1778687199333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1778687199333</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: uso de Tools y Embeddings similares">
+      <option name="closed" value="true" />
+      <created>1779205816379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779205816379</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Busqueda semantica">
+      <option name="closed" value="true" />
+      <created>1779290739175</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779290739175</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: embeddings" />
+    <MESSAGE value="feat: chatModel" />
+    <MESSAGE value="feat: chatModel con Memoria de mensajes y System Role" />
+    <MESSAGE value="feat: chatModel con respuesta JSON" />
+    <MESSAGE value="feat: uso de Tools y Embeddings similares" />
+    <MESSAGE value="feat: Busqueda semantica" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Busqueda semantica" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
