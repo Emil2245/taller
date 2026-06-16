@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b2b7b7b-0721-495f-abec-5a71ad732cea" name="Changes" comment="feat: Busqueda semantica">
-      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/java/com/programacion/taller/SpringAiPromptMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/java/com/programacion/taller/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/java/com/programacion/taller/rest/ChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/java/com/programacion/taller/rest/ChatRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/resources/prompts/systemPrompt.st" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/resources/prompts/userPrompt.st" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.spring-prompt/src/main/resources/static.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/SpringAiRagMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/routers/FileReaderRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/EmbeddingProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/FileProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/TransformerProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/resources/files/TeoriaColor - Gabriel.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,12 +114,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SpringAiMain.executor": "Run",
     "Spring Boot.SpringAiPromptMain.executor": "Run",
+    "Spring Boot.SpringAiRagMain.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/tallerIII/taller/10.spring-prompt/src/main/resources",
+    "last_opened_file_path": "C:/tallerIII/taller/11.spring-rag/src/main/resources/files",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
@@ -131,11 +129,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\tallerIII\taller\11.spring-rag\src\main\resources\files" />
       <recent name="C:\tallerIII\taller\10.spring-prompt\src\main\resources" />
       <recent name="C:\tallerIII\taller\10.spring-prompt\src\main\resources\prompts" />
       <recent name="C:\tallerIII\taller\10.spring-prompt\src\main\java\com\programacion\taller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\tallerIII\taller\11.spring-rag\src\main\resources\models" />
       <recent name="C:\tallerIII\taller" />
       <recent name="C:\tallerIII\taller\langchain4j\src" />
       <recent name="C:\tallerIII\taller\01.embedding\src\main\resources" />
@@ -144,7 +144,7 @@
       <recent name="com.programacion.taller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringAiPromptMain">
+  <component name="RunManager" selected="Spring Boot.SpringAiRagMain">
     <configuration name="BusquedaSemanticaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.programacion.embeddings.BusquedaSemanticaMain" />
       <module name="taller.langchain4j.main" />
@@ -170,30 +170,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="SimilitudMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programacion.embeddings.SimilitudMain" />
-      <module name="taller.langchain4j.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.programacion.embeddings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="taller" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="taller" />
-      <option name="filePath" />
-      <method v="2" />
     </configuration>
     <configuration name="SpringAiMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
@@ -223,20 +199,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringAiRagMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="taller.11.spring-rag.main" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.programacion.taller.SpringAiRagMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programacion.taller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BusquedaSemanticaMain" />
       <item itemvalue="Application.InMemoryEmbeddingStoreMain" />
-      <item itemvalue="Application.SimilitudMain" />
+      <item itemvalue="Spring Boot.SpringAiRagMain" />
       <item itemvalue="Spring Boot.SpringAiPromptMain" />
       <item itemvalue="Spring Boot.SpringAiMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringAiRagMain" />
         <item itemvalue="Spring Boot.SpringAiPromptMain" />
         <item itemvalue="Spring Boot.SpringAiMain" />
         <item itemvalue="Application.InMemoryEmbeddingStoreMain" />
         <item itemvalue="Application.BusquedaSemanticaMain" />
-        <item itemvalue="Application.SimilitudMain" />
       </list>
     </recent_temporary>
   </component>
@@ -337,6 +334,16 @@
     <MESSAGE value="feat: uso de Tools y Embeddings similares" />
     <MESSAGE value="feat: Busqueda semantica" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: Busqueda semantica" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

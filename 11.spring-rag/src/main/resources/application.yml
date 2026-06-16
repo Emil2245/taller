@@ -1,0 +1,23 @@
+server:
+  port: 8090
+
+app:
+  key: zxy
+  aimodel: llama3.2
+
+spring:
+  ai:
+    model:
+      embedding: transformers
+    embedding:
+      transformers:
+        onnx:
+          model-uri: classpath:models/model.onnx
+        tokenizer:
+          uri: classpath:models/tokenizer.json
+
+    openai:
+      api-key: ${APP_KEY}
+      base-url: http://localhost:8080
+      chat:
+        model: ${app.aimodel}
