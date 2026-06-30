@@ -8,7 +8,7 @@ import java.util.List;
 
 @Component
 public class TransformerProcessor {
-    List<Document> procesar(List<Document> documents) {
+    public List<Document> procesar(List<Document> documents) {
 
         TokenTextSplitter splitter = TokenTextSplitter.builder().build();
 

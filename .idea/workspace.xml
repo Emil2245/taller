@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b2b7b7b-0721-495f-abec-5a71ad732cea" name="Changes" comment="feat: Busqueda semantica">
-      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/SpringAiRagMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/routers/FileReaderRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/EmbeddingProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/FileProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/TransformerProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.spring-rag/src/main/resources/files/TeoriaColor - Gabriel.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11.spring-rag/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.spring-rag/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/11.spring-rag/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/routers/FileReaderRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/routers/FileReaderRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/EmbeddingProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/EmbeddingProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/TransformerProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/11.spring-rag/src/main/java/com/programacion/taller/services/TransformerProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.spring-rag/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/11.spring-rag/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,45 +85,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Gradle.Build taller.executor": "Run",
-    "Gradle.taller [:01.embedding:com.programacion.taller.DataSampling.main()].executor": "Run",
-    "Gradle.taller [:01.embedding:com.programacion.taller.EmbeddingTest.main()].executor": "Run",
-    "Gradle.taller [:01.embedding:com.programacion.taller.TestTokenizerMain.main()].executor": "Run",
-    "Gradle.taller [:01.embedding:com.programacion.taller.TokkitTokenizer.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.embeddings.BusquedaSemanticaMain.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.embeddings.InMemoryEmbeddingStoreMain.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.taller.ChatAiServiceMain.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.taller.ChatMain.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.taller.ChatMemoryMain.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.taller.ChatStreamMain.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.taller.ChatStructuredOutputMain.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.taller.FunctionCallingMain.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.taller.embeddings.EmbeddingModel.main()].executor": "Run",
-    "Gradle.taller [:langchain4j:com.programacion.taller.embeddings.SimilitudMain.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.SpringAiMain.executor": "Run",
-    "Spring Boot.SpringAiPromptMain.executor": "Run",
-    "Spring Boot.SpringAiRagMain.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/tallerIII/taller/11.spring-rag/src/main/resources/files",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.Build taller.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:01.embedding:com.programacion.taller.DataSampling.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:01.embedding:com.programacion.taller.EmbeddingTest.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:01.embedding:com.programacion.taller.TestTokenizerMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:01.embedding:com.programacion.taller.TokkitTokenizer.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.embeddings.BusquedaSemanticaMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.embeddings.InMemoryEmbeddingStoreMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.taller.ChatAiServiceMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.taller.ChatMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.taller.ChatMemoryMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.taller.ChatStreamMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.taller.ChatStructuredOutputMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.taller.FunctionCallingMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.taller.embeddings.EmbeddingModel.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.taller [:langchain4j:com.programacion.taller.embeddings.SimilitudMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringAiMain.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringAiPromptMain.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringAiRagMain.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/tallerIII/taller/11.spring-rag/src/main/resources/files&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\tallerIII\taller\11.spring-rag\src\main\resources\files" />
@@ -223,9 +220,9 @@
     <list>
       <item itemvalue="Application.BusquedaSemanticaMain" />
       <item itemvalue="Application.InMemoryEmbeddingStoreMain" />
-      <item itemvalue="Spring Boot.SpringAiRagMain" />
-      <item itemvalue="Spring Boot.SpringAiPromptMain" />
       <item itemvalue="Spring Boot.SpringAiMain" />
+      <item itemvalue="Spring Boot.SpringAiPromptMain" />
+      <item itemvalue="Spring Boot.SpringAiRagMain" />
     </list>
     <recent_temporary>
       <list>
